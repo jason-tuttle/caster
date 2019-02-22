@@ -91,6 +91,10 @@ function listMajors(auth) {
   });
 }
 
+/**
+ * Fetch and print info from the Episodes sheet
+ * @param {google.auth.OAuth2} auth The authenticated Google OAuth Client
+ */
 function listEpisodes(auth) {
   const sheets = google.sheets({version: 'v4', auth});
   sheets.spreadsheets.values.get({
