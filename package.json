@@ -1,0 +1,14 @@
+{
+  "name": "caster",
+  "version": "1.0.0",
+  "description": "integrate with Google API to serve up podcast info",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hearspotbark@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "googleapis": "^27.0.0"
+  }
+}
